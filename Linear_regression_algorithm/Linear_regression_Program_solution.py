@@ -14,7 +14,7 @@ def kiran():
    sumofs2error_old=0
    sumof9s2error_new=len(xi)
    while(sumofs2error_new > threshold): 
-    sumofs2error_old=sumof9s2error_new
+    sumofs2error_old=sumofs2error_new
     sumofs2error=0
     gradientsum=[0,0,0]
     for i in range(0,n,1):
